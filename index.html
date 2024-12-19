@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mягкие лапки</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=7cce9c72-4091-46fb-8361-9936a97fc91f&lang=ru_RU" type="text/javascript"></script>
+  <script defer src="script.js"></script>
+  <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <img src="paw.png" alt="Логотип">
+      <h1>Mягкие лапки</h1>
+    </div>
+  </header>
+  
+  <main class="main container">
+    <section class="actions">
+        
+        <div class="action">
+          <img src="gift-icon.png" alt="Передать подарки">
+          <p>Передать подарки</p>
+          <div class="detail-container">
+            <ul>
+              <li>Адрес:</li>
+              <li>г. Симферополь, ул Kиевская 145, Kв. 6</li>
+            </ul>
+          </div>
+        </div>
+        <div class="action">
+          <img src="volunteer-icon.png" alt="Стать волонтером">
+          <p>Стать волонтером</p>
+          <div class="detail-container">
+            <ul>
+              <li>Как связаться:</li>
+              <li>Телефон: +7 978 552 46 40</li>
+              <li>Email: helpanimals@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+        <div class="action">
+          <img src="adopt-icon.png" alt="Взять друга из приюта">
+          <p>Взять друга из приюта</p>
+          <div class="detail-container">
+            <ul>
+              <li>Адрес:</li>
+              <li>г. Симферополь, ул Kиевская 145, Kв. 6</li>
+              <li>Телефон: +7 978 552 46 40</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+
+    <section class="links">
+        
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeP7rQnMsOdkkOhEW0b-oGf1gOfY0KyQIs35XlUz7hCd-ELWA/viewform?usp=sf_link" target="_blank">
+            <button>Оформить заявку</button>
+        </a> 
+        <a href="https://yandex.ru/maps/146/simferopol/category/dog_park/89667474677/?ll=34.121321%2C44.953835&sll=34.121321%2C44.953835&sspn=0.124818%2C0.052479&z=13.94" target="_blank"> 
+            <button>Площадки для собак</button>
+        </a>
+        
+      <a href="https://yandex.ru/maps/146/simferopol/category/veterinary_clinic/184107216/?ll=34.105073%2C44.946028&sll=34.105073%2C44.946028&sspn=0.239468%2C0.100696&z=13" target="_blank">
+        <button>Вет. клиники</button>
+    </a> 
+              
+    </section>
+    
+    <section class="map-section">
+      <h2>Найти ближайшие приюты</h2>
+      <div id="map"></div>
+    </section>
+  </main>
+</body>
+</html>
